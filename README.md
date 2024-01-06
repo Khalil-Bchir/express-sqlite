@@ -3,25 +3,37 @@
 ## Description
 This project demonstrates the process of creating, containerizing, and deploying an Express.js application with SQLite using Docker and Docker Compose. Additionally, it includes an automated CI/CD pipeline using Jenkins for image creation and delivery.
 
-## Table of Contents
-1. [GitLab Configuration](#gitlab-configuration)
-2. [Express.js Application](#expressjs-application)
-3. [Docker Image Creation](#docker-image-creation)
-4. [Docker Compose](#docker-compose)
-5. [Jenkins CI/CD Pipeline](#jenkins-cicd-pipeline)
-6. [Screenshots](#screenshots)
-
-## GitLab Configuration
-1. Create a project on GitLab (or GitHub) named "express-sqlite."
+## GitHub Configuration
+1. Create a project on GitHub named "express-sqlite."
 2. Clone the project to your local machine.
 3. Optionally, configure a GitFlow workflow for the project using your preferred tool.
 
 ## Express.js Application
-1. Navigate to the project directory: `cd express-sqlite`
-2. Initialize a Node.js project: `npm init`
-3. Install dependencies: `npm install express sqlite3`
-4. Create an `app.js` file with the provided Express.js code.
-5. Test the application using Postman.
+1. Clone the repository to your local machine:
+    ```bash
+    git clone https://gitlab.com/your-username/express-sqlite.git
+    ```
+    Replace `your-username` with your actual GitLab username.
+
+2. Navigate to the project directory:
+    ```bash
+    cd express-sqlite
+    ```
+
+3. Initialize a Node.js project:
+    ```bash
+    npm init
+    ```
+
+4. Install dependencies:
+    ```bash
+    npm install express sqlite3
+    ```
+
+5. Create an `app.js` file with the provided Express.js code.
+
+6. Test the application using Postman.
+
 
 ## Docker Image Creation
 1. Create a `Dockerfile` in the project's root directory:
